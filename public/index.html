@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html class="full" lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+    <title>DocBot</title>
+
+    <link href="lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href='css/style.css' rel='stylesheet'>
+    <link href='/lib/animate.css/animate.min.css' rel="stylesheet">
+
+</head>
+
+<body ng-app='docbot'>
+
+    <!-- Page Content -->
+    <div class='container'>
+      <img class="logo animated zoomIn" src="/img/docbotlogo_inverse.png"/>
+    </div>
+    <!-- /.container -->
+
+    <!-- General Javascript Dependencies -->
+    <script src="lib/jquery/dist/jquery.min.js"></script>
+    <script src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <!-- AngularJS Dependencies -->
+    <script src='lib/angular/angular.min.js'></script>
+    <script src='lib/angular-route/angular-route.min.js'></script>
+    <script src='lib/angular-messages/angular-messages.min.js'></script>
+
+    <!-- AngularJS Controllers -->
+    <script src='js/controllers/register.js'></script>
+    <script src='js/controllers/login.js'></script>
+
+    <script type='text/javascript'>
+        (function() {
+            var app = angular.module('docbot', ['ngRoute']);
+            app.config(['$routeProvider', function($routeProvider, $locationProvider){
+
+
+            }]);
+        }());
+
+    </script>
+
+</body>
+</html>
