@@ -2,6 +2,7 @@ module.exports = function(db, passport) {
     var express = require('express');
     var router = express.Router(mergeParams=true);
     var path = require('path');
+    var diagnose = require('./diagnose');
 
     var LocalStrategy = require('passport-local').Strategy;
 
@@ -44,5 +45,7 @@ module.exports = function(db, passport) {
             });
         })(req, res, next);
     });
+
+    router.post('/diagnose', diagnose.diagnosePatient);
     return router;
-}
+};
