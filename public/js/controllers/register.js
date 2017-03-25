@@ -1,5 +1,5 @@
 (function() {
-    var app = angular.module('assassinRegister', ['ngMessages']);
+    var app = angular.module('docbot', ['ngMessages']);
 
     app.controller('RegisterController', ['$scope','$http','$window', function($scope, $http, $window) {
         $scope.signup = function() {

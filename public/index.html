@@ -18,23 +18,22 @@
 <body ng-app='docbot'>
 
     <!-- Page Content -->
-    <div class='container'>
-      <img class="logo animated zoomIn" src="/img/docbotlogo_inverse.png"/>
+    <div class='container' ng-controller="ChatController">
+      <img class="logo animated zoomIn" src="/img/transparentlogo.png"/>
+      <h1 id="btn-action" class="infinite animated pulse">Tap to discuss</h1>
+      <input class="chat-in" type="text"/>
+      <iframe id="chat-dialog" src='https://webchat.botframework.com/embed/docbot9?s=2t3TunadI8M.cwA.YI4.0JsF-eHXyHRK9aXV9Dh5FvsBX6HknZzvtyMg1a96KxM'></iframe>
     </div>
     <!-- /.container -->
 
     <!-- General Javascript Dependencies -->
-    <script src="lib/jquery/dist/jquery.min.js"></script>
-    <script src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="/lib/jquery/dist/jquery.min.js"></script>
+    <script src="/lib/bootstrap/dist/js/bootstrap.min.js"></script>
 
     <!-- AngularJS Dependencies -->
-    <script src='lib/angular/angular.min.js'></script>
-    <script src='lib/angular-route/angular-route.min.js'></script>
-    <script src='lib/angular-messages/angular-messages.min.js'></script>
-
-    <!-- AngularJS Controllers -->
-    <script src='js/controllers/register.js'></script>
-    <script src='js/controllers/login.js'></script>
+    <script src='/lib/angular/angular.min.js'></script>
+    <script src='/lib/angular-route/angular-route.min.js'></script>
+    <script src='/lib/angular-messages/angular-messages.min.js'></script>
 
     <script type='text/javascript'>
         (function() {
@@ -46,6 +45,12 @@
         }());
 
     </script>
+
+    <!-- AngularJS Controllers -->
+    <script src='/js/controllers/register.js'></script>
+    <script src='/js/controllers/login.js'></script>
+    <script src='/js/controllers/chat.js'></script>
+
 
 </body>
 </html>

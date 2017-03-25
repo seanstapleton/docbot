@@ -1,5 +1,5 @@
 !(function() {
-    var app = angular.module('assassinLogin', ['ngMessages']);
+    var app = angular.module('docbot', ['ngMessages']);
 
     app.controller('LoginController', ['$scope','$http','$window',function($scope,$http,$window) {
         $scope.login = function(){

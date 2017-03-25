@@ -5,6 +5,8 @@ module.exports = function(db, passport) {
     var logger = require('morgan');
     var cookieParser = require('cookie-parser');
     var bodyParser = require('body-parser');
+    var restify = require('restify');
+    var botbuilder = require('botbuilder');
 
     var routes = require('./routes/index');
     var users = require('./routes/users');
@@ -22,6 +24,20 @@ module.exports = function(db, passport) {
     }));
     app.use(passport.initialize());
     app.use(passport.session());
+
+    // var server = restify.createServer();
+    // server.listen(process.env.port || 3978, function() {
+    //   console.log("NSA should tune in on port" + server.url);
+    // });
+    // var connector = new builder.ChatConnector({
+    //   appId: process.env.MICROSOFT_APP_ID,
+    //   appPassword: process.env.MICROSOFT_APP_PASS
+    // });
+    // var bot = new builder.UniversalBot(connector);
+    // server.post('/api/messages', connector.listen());
+    // bot.dialog("/", function(session) {
+    //   session.send("Hello World!");
+    // });
 
     var User = require('./models/user.js');
     passport.serializeUser(function(user, done) {
