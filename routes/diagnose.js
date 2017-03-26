@@ -53,6 +53,7 @@ exports.diagnosePatient = function(req, res) {
         py.stdin.end();
     }
     */
+    console.log(mostProbableDisease);
 
     res.send(mostProbableDisease);
 };
