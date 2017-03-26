@@ -36,7 +36,6 @@ exports.diagnosePatient = function(req, res) {
             mostProbableDisease = key;
         }
     }
-    console.log(mostProbableDisease);
 
     res.send('POST request to the Diagnosis');
 };
