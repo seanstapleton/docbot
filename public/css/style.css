@@ -8,6 +8,16 @@ p, h1, h2, h3, h4, h5, a, li {
 p {
   font-weight: lighter;
 }
+.actionable {
+  font-family: Montserrat;
+  font-weight: lighter;
+  color: lightgrey;
+  text-align: center;
+  font-size: 2em;
+  position: absolute;
+  top: 30vh;
+  z-index: 9999999999999999;
+}
 img.logo {
   height: 40vh;
   margin: auto;
@@ -17,7 +27,7 @@ img.logo {
 input.chat-in {
   width: 100%;
   padding: 20px 20px;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   background: rgba(184,241,255,0.8);
   border: none;

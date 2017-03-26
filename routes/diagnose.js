@@ -2,9 +2,9 @@ var symptoms = require("../models/symptomsData.json");
 
 exports.diagnosePatient = function(req, res) {
 
-    // var patientSymptoms = req.body.symptoms;
-    var patientSymptoms = req.body.js_code.shift();
-
+    //var patientSymptoms = req.body.symptoms;
+    var patientSymptoms = req.body.js_code;
+    console.log("-----------------------------",patientSymptoms);
 
     /*
     var patientSymptoms = [
