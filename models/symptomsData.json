@@ -57,17 +57,49 @@
       "Diseases": [ "Stroke" ]
     },
     {
-      "Name": "Sudden headache",
-      "Diseases": [ "Stroke" ]
-    },
-    {
-      "Name": "Sudden headache",
-      "Diseases": [ "Stroke" ]
+      "Name": "Headache",
+      "Diseases": [ "Stroke", "Strep", "Fever" ]
     },
     {
       "Name": "Fever",
       "Diseases": [
         "Strep", "Flu"
+      ]
+    },
+    {
+      "Name": "Swollen Lymph",
+      "Diseases": [
+        "Strep"
+      ]
+    },
+    {
+      "Name": "Red spots on mouth",
+      "Diseases": [
+        "Strep"
+      ]
+    },
+    {
+      "Name": "Gut Pain",
+      "Diseases": [
+        "Strep"
+      ]
+    },
+    {
+      "Name": "General Pain",
+      "Diseases": [
+        "Flu"
+      ]
+    },
+    {
+      "Name": "Fatigue",
+      "Diseases": [
+        "Flu"
+      ]
+    },
+    {
+      "Name": "Exhaustion",
+      "Diseases": [
+        "Flu"
       ]
     }
   ]
