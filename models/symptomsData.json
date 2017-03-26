@@ -1,6 +1,42 @@
 {
   "Symptoms": [
     {
+      "Name": "Fatigue",
+      "Diseases": [
+        "Influenza"
+      ]
+    },
+    {
+      "Name": "Loss of Appetite",
+      "Diseases": [
+        "Influenza"
+      ]
+    },
+    {
+      "Name": "Cough",
+      "Diseases": [
+        "Common Cold"
+      ]
+    },
+    {
+      "Name": "Sore Throat",
+      "Diseases": [
+        "Common Cold", "Influenza"
+      ]
+    },
+    {
+      "Name": "Sneezing",
+      "Diseases": [
+        "Common Cold", "Influenza"
+      ]
+    },
+    {
+      "Name": "Runny Nose",
+      "Diseases": [
+        "Common Cold", "Influenza"
+      ]
+    },
+    {
       "Name": "Chest Pain",
       "Diseases": [ "Heart Attack" ]
     },
@@ -26,11 +62,11 @@
     },
     {
       "Name": "Sweat",
-      "Diseases": [ "Heart Attack" ]
+      "Diseases": [ "Heart Attack", "Influenza" ]
     },
     {
-      "Name": "Nauseous",
-      "Diseases": [ "Heart Attack" ]
+      "Name": "Nausea",
+      "Diseases": [ "Heart Attack", "Influenza" ]
     },
     {
       "Name": "Face Drooping",
@@ -63,13 +99,13 @@
     {
       "Name": "Fever",
       "Diseases": [
-        "Strep", "Flu"
+        "Strep", "Flu", "Influenza"
       ]
     },
     {
       "Name": "Swollen Lymph",
       "Diseases": [
-        "Strep"
+        "Strep", "Influenza"
       ]
     },
     {
