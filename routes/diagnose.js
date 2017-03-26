@@ -5,7 +5,6 @@ exports.diagnosePatient = function(req, res) {
     var patientSymptoms = [
         "Headache",
         "Fever",
-        "Red spots on mouth"
     ];
 
     var diseases = new Map();
@@ -35,7 +34,22 @@ exports.diagnosePatient = function(req, res) {
         if(diseases.get(mostProbableDisease) < value) {
             mostProbableDisease = key;
         }
+    };
+
+    // If too less symptoms
+    /*
+    if(diseases.get(mostProbableDisease) < 3) {
+        var spawn = require('child_process').spawn;
+        var symptomArray;
+        py = spawn('python', ['pythonDiseaseScript.py']);
+        py.stdout.on('data', function(data){
+            symptomArray = data;
+            console.log(symptomArray);
+        });
+        py.stdin.write(JSON.stringify(patientSymptoms));
+        py.stdin.end();
     }
+    */
 
     res.send('POST request to the Diagnosis');
 };
