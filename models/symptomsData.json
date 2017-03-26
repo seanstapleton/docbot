@@ -3,7 +3,7 @@
     {
       "Name": "Fatigue",
       "Diseases": [
-        "Influenza"
+        "Influenza", "Flu"
       ]
     },
     {
@@ -122,12 +122,6 @@
     },
     {
       "Name": "General Pain",
-      "Diseases": [
-        "Flu"
-      ]
-    },
-    {
-      "Name": "Fatigue",
       "Diseases": [
         "Flu"
       ]
