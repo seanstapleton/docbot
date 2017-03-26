@@ -5,6 +5,8 @@ exports.diagnosePatient = function(req, res) {
     // var patientSymptoms = req.body.symptoms;
     var patientSymptoms = req.body.js_code;
     patientSymptoms.shift();
+
+
     /*
     var patientSymptoms = [
         "Headache",
