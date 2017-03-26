@@ -4,6 +4,7 @@ exports.diagnosePatient = function(req, res) {
 
     // var patientSymptoms = req.body.symptoms;
     var patientSymptoms = req.body.js_code;
+    console.log("-----------------", patientSymptoms);
     patientSymptoms.shift();
 
     /*
