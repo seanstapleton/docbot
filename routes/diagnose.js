@@ -2,7 +2,8 @@ var symptoms = require("../models/symptomsData.json");
 
 exports.diagnosePatient = function(req, res) {
 
-    var patientSymptoms = req.body.symptoms;
+    // var patientSymptoms = req.body.symptoms;
+    var patientSymptoms = req.body.js_code;
     /*
     var patientSymptoms = [
         "Headache",
@@ -16,8 +17,8 @@ exports.diagnosePatient = function(req, res) {
 
         // Find symptom in the data store
         symptoms.Symptoms.forEach(function(element) {
-
-            if(element.Name == symp) {
+            var symptomName = element.Name;
+            if(symptomName.match(new RegExp(symp, "i"))) {
                 // Map it to the disease
                 element.Diseases.forEach(function(disease) {
                     if(!diseases.get(disease)) {
