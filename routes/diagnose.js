@@ -2,7 +2,7 @@ var symptoms = require("../models/symptomsData.json");
 
 exports.diagnosePatient = function(req, res) {
 
-    var patientSymptoms = req.body;
+    var patientSymptoms = req.body.symptoms;
     /*
     var patientSymptoms = [
         "Headache",
