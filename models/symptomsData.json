@@ -1,0 +1,74 @@
+{
+  "Symptoms": [
+    {
+      "Name": "Chest Pain",
+      "Diseases": [ "Heart Attack" ]
+    },
+    {
+      "Name": "Upper Body Pain",
+      "Diseases": [ "Heart Attack" ]
+    },
+    {
+      "Name": "Stomach Pain",
+      "Diseases": [ "Heart Attack" ]
+    },
+    {
+      "Name": "Short Breath",
+      "Diseases": [ "Heart Attack" ]
+    },
+    {
+      "Name": "Anxiety",
+      "Diseases": [ "Heart Attack" ]
+    },
+    {
+      "Name": "Light Headed",
+      "Diseases": [ "Heart Attack" ]
+    },
+    {
+      "Name": "Sweat",
+      "Diseases": [ "Heart Attack" ]
+    },
+    {
+      "Name": "Nauseous",
+      "Diseases": [ "Heart Attack" ]
+    },
+    {
+      "Name": "Face Drooping",
+      "Diseases": [ "Stroke" ]
+    },
+    {
+      "Name": "Arm Weakness",
+      "Diseases": [ "Stroke" ]
+    },
+    {
+      "Name": "Speech Difficulty",
+      "Diseases": [ "Stroke" ]
+    },
+    {
+      "Name": "Sudden confusion",
+      "Diseases": [ "Stroke" ]
+    },
+    {
+      "Name": "Sudden Numbness",
+      "Diseases": [ "Stroke" ]
+    },
+    {
+      "Name": "Trouble seeing/walking",
+      "Diseases": [ "Stroke" ]
+    },
+    {
+      "Name": "Sudden headache",
+      "Diseases": [ "Stroke" ]
+    },
+    {
+      "Name": "Sudden headache",
+      "Diseases": [ "Stroke" ]
+    },
+    {
+      "Name": "Fever",
+      "Diseases": [
+        "Strep", "Flu"
+      ]
+    }
+  ]
+}
