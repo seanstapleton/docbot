@@ -2,10 +2,13 @@ var symptoms = require("../models/symptomsData.json");
 
 exports.diagnosePatient = function(req, res) {
 
+    var patientSymptoms = req.body;
+    /*
     var patientSymptoms = [
         "Headache",
         "Fever",
     ];
+    */
 
     var diseases = new Map();
     // For each symptom
@@ -51,5 +54,5 @@ exports.diagnosePatient = function(req, res) {
     }
     */
 
-    res.send('POST request to the Diagnosis');
+    res.send(mostProbableDisease);
 };
