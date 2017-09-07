@@ -155,11 +155,11 @@ body .wc-app, .wc-app button, .wc-app input, .wc-app textarea {
 
 .wc-console {
   border: 5px solid #dbdee1;
-  bottom: 0;
+  bottom: 0 !important;
   box-sizing: border-box;
   height: 50px;
   left: 0;
-  position: absolute;
+  position: fixed !important;
   right: 0;
 }
 
