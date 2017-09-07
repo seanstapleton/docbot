@@ -1,6 +1,8 @@
 body {
   background-color: #9CDFFF;
   margin: 0;
+  height: 100vh;
+  overflow: hidden;
 }
 p, h1, h2, h3, h4, h5, a, li {
   font-family: Montserrat;
